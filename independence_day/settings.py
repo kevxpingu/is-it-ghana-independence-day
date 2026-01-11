@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-gfb$(vy8yqu=%_)=rrg4ajjyzmni^d)lz30numpan^f24xkh+y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'isitghanaindependenceday.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
