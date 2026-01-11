@@ -8,7 +8,7 @@
     
     <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
     <meta property="og:title" content="IsItIndependenceDayToday?🇬🇭">
-    <meta property="og:description" content="Is Ghana's Independence Dat Today?">
+    <meta property="og:description" content="Is Ghana's Independence Day Today?">
     <meta property="og:image" content="https://isitghanaindependenceday.onrender.com/static/images/preview.png">
     <meta property="og:url" content="https://isitghanaindependenceday.onrender.com/">
     <meta property="og:type" content="website">
@@ -26,14 +26,21 @@
         
     <title>isitghanaindependenceday?</title>
 </head>
-<body class="bg-center bg-cover w-full min-h-screen">
-   <div class="flex min-h-screen justify-center flex-col items-center space-y-8">
-    <h1 class="sm:text-4xl md:text-6xl font-bold text-yellow-500">Today's Date: {{today}}</h1>
+<body class="flex flex-col bg-center bg-cover w-full min-h-screen">
+   <div class="flex flex-1 justify-center flex-col items-center space-y-8">
+    <h1 class="sm:text-4xl md:text-6xl font-bold text-yellow-500 animate-bounce">Today's Date: {{today}}</h1>
     {% if is_it_independence_day %}
     <h2 class="text-8xl font-bold text-green-500">YES</h2>
     {% else %}
     <h2 class="text-9xl font-bold text-red-600">NO</h2>
     {% endif %}
    </div>
+
+   <footer class="mt-0 flex justify-center ">
+    <div class="text-sm p-3 mb-3 flex justify-center items-center  md:w-1/2 h-12 bg-gray-100 rounded-xl space-x-8 bg-gray-900 text-gray-200 md:text-lg">
+       <span>2026 &copy; kevxpingu</span> 
+       <span>Proudly Ghanaian</span>
+    </div>
+   </footer>
 </body>
 </html>
