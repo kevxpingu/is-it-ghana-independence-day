@@ -9,3 +9,6 @@ A simple Django web application that displays today’s date and tells you wheth
 - Uses Python’s `datetime` module to get today’s date
 - Compares it with **March 6**
 - Displays a clear **YES** or **NO** message
+
+- [![Visit Site](https://img.shields.io/badge/Live-Demo-brightgreen)](https://isitghanaindependenceday.onrender.com)
+
